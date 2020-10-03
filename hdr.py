@@ -17,13 +17,13 @@ def readImagesAndTimes():
 
 if __name__ == '__main__':
   # Read images and exposure times
-  print("Reading images ... ")
+  print("Reading images Wait...")
 
   images, times = readImagesAndTimes()
   
   
   # Align input images
-  print("Aligning images ... ")
+  print("Aligning images Wait...")
   alignMTB = cv2.createAlignMTB()
   alignMTB.process(images, images)
   
