@@ -90,6 +90,8 @@ int main(int, char**argv)
   imwrite("ldr-Mantiuk.jpg", ldrMantiuk * 255);
   cout << "saved ldr-Mantiuk.jpg"<< endl;
   
+  cout << "a change for hacktober fest" << endl;
+  
   
   
   return EXIT_SUCCESS;
