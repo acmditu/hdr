@@ -73,3 +73,4 @@ if __name__ == '__main__':
   print("saved ldr-Mantiuk.jpg")
   print("updating")
 
+  print("Hacktoberfest 2020")
