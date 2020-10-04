@@ -99,6 +99,9 @@ int main(int, char**argv)
 
   
 
+  count<<"Image is converted into HDR"<<end1;
+
+
   cout << " hacktober fest" << endl;
 
   print("Hacktoberfest");
