@@ -92,7 +92,7 @@ int main(int, char**argv)
   
   cout << "a change for hacktober fest" << endl;
   print("Hacktoberfest");
-  
+
   
   
   return EXIT_SUCCESS;
