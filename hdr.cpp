@@ -92,7 +92,7 @@ int main(int, char**argv)
   
   cout << "a change for hacktober fest" << endl;
   
-  
+  count<<"Image is converted into HDR"<<end1;
   
   return EXIT_SUCCESS;
 }
