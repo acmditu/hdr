@@ -71,7 +71,7 @@ int main(int, char**argv)
   tonemapDurand->process(hdrDebevec, ldrDurand);
   ldrDurand = 3 * ldrDurand;
   imwrite("ldr-Durand.jpg", ldrDurand * 255);
-  cout << "saved ldr-Durand.jpg"<< endl;
+  cout << "saved ldr-Durand.jpg /n";
   
   // Tonemap using Reinhard's method to obtain 24-bit color image
   cout << "Tonemaping using Reinhard's method ... ";
@@ -90,9 +90,13 @@ int main(int, char**argv)
   imwrite("ldr-Mantiuk.jpg", ldrMantiuk * 255);
   cout << "saved ldr-Mantiuk.jpg"<< endl;
   
+
+  cout << "a change for hacktober fest /n";
+
   cout << "a change for hacktober fest" << endl;
 
   print("hactober");
+
   
 
   cout << " hacktober fest" << endl;
