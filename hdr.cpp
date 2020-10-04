@@ -91,9 +91,10 @@ int main(int, char**argv)
   cout << "saved ldr-Mantiuk.jpg"<< endl;
   
   cout << "a change for hacktober fest" << endl;
+  cout << " hacktober fest" << endl;
+
   print("Hacktoberfest");
 
-  
   
   return EXIT_SUCCESS;
 }
