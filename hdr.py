@@ -70,4 +70,5 @@ if __name__ == '__main__':
   ldrMantiuk = 3 * ldrMantiuk
   cv2.imwrite("ldr-Mantiuk.jpg", ldrMantiuk * 255)
   print("saved ldr-Mantiuk.jpg")
+  print("open source rocks")
 
