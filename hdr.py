@@ -26,6 +26,7 @@ if __name__ == '__main__':
   print("Aligning images Wait...")
   alignMTB = cv2.createAlignMTB()
   alignMTB.process(images, images)
+  print("Aligning images done...")
   
   # Obtain Camera Response Function (CRF)
   print("Calculating Camera Response Function (CRF) ... ")
