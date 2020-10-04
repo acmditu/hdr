@@ -33,7 +33,7 @@ if __name__ == '__main__':
   responseDebevec = calibrateDebevec.process(images, times)
   
   # Merge images into an HDR linear image
-  print("Merging images into one HDR image ... ")
+  print("Merge all images into one HDR img ")
   mergeDebevec = cv2.createMergeDebevec()
   hdrDebevec = mergeDebevec.process(images, times, responseDebevec)
   # Save HDR image.
@@ -70,4 +70,5 @@ if __name__ == '__main__':
   ldrMantiuk = 3 * ldrMantiuk
   cv2.imwrite("ldr-Mantiuk.jpg", ldrMantiuk * 255)
   print("saved ldr-Mantiuk.jpg")
+  print("updating")
 
