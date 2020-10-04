@@ -91,6 +91,7 @@ int main(int, char**argv)
   cout << "saved ldr-Mantiuk.jpg"<< endl;
   
   cout << "a change for hacktober fest" << endl;
+  print("Hacktoberfest");
   
   
   
