@@ -105,6 +105,7 @@ int main(int, char**argv)
   cout << " hacktober fest" << endl;
 
   print("Hacktoberfest");
+  print("hacktober fest");
 
 
   
