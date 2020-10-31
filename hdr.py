@@ -74,3 +74,4 @@ if __name__ == '__main__':
   print("updating")
 
   print("Hacktoberfest 2020")
+  print("Hactober Fest 2020")
