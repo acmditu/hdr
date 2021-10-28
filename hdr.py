@@ -3,7 +3,7 @@ import numpy as np
 
 
 def readImagesAndTimes():
-  
+  print("The function read Images and Times is working")
   times = np.array([ 1/30.0, 0.25, 2.5, 15.0 ], dtype=np.float32)
   
   filenames = ["img_0.033.jpg", "img_0.25.jpg", "img_2.5.jpg", "img_15.jpg"]
